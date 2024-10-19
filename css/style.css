@@ -312,7 +312,7 @@ input:checked+.slider__light:before {
 }
 
 .mail {
-    background-image: url(imajes/mail.svg);
+    background-image: url(/imajes/mail.svg);
     width: 57px;
     height: 57px;
     background-repeat: no-repeat;
@@ -324,12 +324,12 @@ input:checked+.slider__light:before {
 }
 
 .mail:hover {
-    background-image: url(imajes/mail-hover.svg);
+    background-image: url(/imajes/mail-hover.svg);
     z-index: 10;
 }
 
 .telegram {
-    background-image: url(imajes/telegram.svg);
+    background-image: url(/imajes/telegram.svg);
     width: 57px;
     height: 57px;
     background-repeat: no-repeat;
