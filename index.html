@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <div class="box__light">
+        <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider__light">
+            <span class="slider__light round"></span>
+        </label>
+        <!-- <button id="switch" onclick="toggleTheme()">Switch</button> -->
+
+
+        <headr class="header">
+            <div class="container">
+                <div class="menu__box">
+                    <a href="#" class="logo">AlexQA</a>
+                    <div class="menu__icon" id="menu-icon">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <div class="menu__top" id="menu-top">
+                        <a href="#about__title" class="menu__link">Обо мне</a>
+                        <a href="#tools" class="menu__link tools">Skills</a>
+                        <a href="#works" class="menu__link">Мои работы</a>
+                        <a href="#footer" class="menu__link contacts">Contacts</a>
+                    </div>
+                </div>
+            </div>
+        </headr>
+
+        <div class="space">
+            <img class="space__face" src="/imajes/space-face.png" alt="images-space">
+        </div>
+
+        <section class="about">
+            <div class="container">
+                <div class="about__container">
+                    <h1 id="about__title">Обо мне</h1>
+                    <div class="about__box">
+                        <img class="about__img" src="/imajes/photo_2024.jpg" alt="about-images">
+                        <div class="about__content">
+                            <p class="about__text about__top">
+                                Я Alex,<br>
+                                занимаюсь Frontend-разработкой уже более 2-х лет.
+                                Выполняю проекты разного уровня сложности.
+                                Меня привлекают интересные задачи.
+                                Обладаю аналитическим мышлением, в нужных случаях -
+                                использую креативный подход
+                            </p>
+                            <p class="about__text about__center">Frontend - важная часть моей жизни,
+                                отношусь к своей работе серьезно и ответственно.
+                                Умею одинаково хорошо работать в команде и самостоятельно.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="about__text about__down">
+                        В свободное время - коммуникабелен, люблю природу и велопрогулки.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools">
+            <div class="container">
+                <h2 class="tools__title">Skills</h2>
+                <ul class="tools__item">
+                    <li class="tools__text">
+                        Visual Studio Code
+                    </li>
+                    <li class="tools__text">
+                        HTML 5, CSS3, JS, PHP, Wordpress, GitHub
+                    </li>
+                    <li class="tools__text">
+                        jQuery, PerfectPixel, Figma
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="works">
+            <div class="container">
+                <h3 class="my__work">Мои работы</h3>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="https://asqalex.github.io/viking/seasons-3.html" class="swiper-slide-link">
+                                <img src="/imajes/vikings.png" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://asqalex.github.io/solar/" class="swiper-slide-link">
+                                <img src="/imajes/solar.png" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://asqalex.github.io/IC/" class="swiper-slide-link">
+                                <img src="/imajes/sushi.png" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://asqalex.github.io/tesla/" class="swiper-slide-link">
+                                <img src="/imajes/tesla.png" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://asqalex.github.io/lux/" class="swiper-slide-link">
+                                <img src="/imajes/lux.png" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://asqalex.github.io/car-for-USA/" class="swiper-slide-link">
+                                <img src="/imajes/car-of-USA.png" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://asqalex.github.io/produkly/" class="swiper-slide-link">
+                                <img src="/imajes/produkly.png" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://asqalex.github.io/type/" class="swiper-slide-link">
+                                <img src="/imajes/type.png" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://asqalex.github.io/kuba/" class="swiper-slide-link">
+                                <img src="/imajes/cuba.png" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#video-rds" class="swiper-slide-link">
+                                <img src="/imajes/RDS.png" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <div id="video-rds">
+            <div class="container">
+                <video class="rds" width="100%" height="100%" controls>
+                    <source src="/imajes/video-RDS.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="container">
+                <h3 class="footer__title">Contacts</h3>
+                <div class="footer__box">
+                    <div class="social">
+                        <a href="xrenoga@gmail.com" class="mail">xrenoga@gmail.com</a>
+                        <p class="telegram">@ALEXSQA +48730618193</p>
+                        <p class="watsapp">+48730618193</p>
+                        <p class="viber">+48730618193</p>
+                        <a href="https://www.facebook.com/profile.php?id=100016096514616"
+                            class="facebook">Алексей_Козорезов</a>
+                        <a href="https://github.com/ASQAlex" class="github">ASQAlex</a>
+                        <a href="https://www.linkedin.com/in/oleksii-kozoriezov-086096234/"
+                            class="linkedin">Oleksii_(Alex)_Kozoriezov</a>
+                    </div>
+                    <div class="contacts__form">
+                        <form class="form" action="#">
+                            <input class="form__input" type="text" placeholder="Name">
+                            <input class="form__input" type="email" placeholder="E-mail">
+                            <textarea class="form__textarea" placeholder="Message"></textarea>
+                            <button class="form__btn" type="submit">Ваше сообщение</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
