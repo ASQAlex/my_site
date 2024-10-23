@@ -211,7 +211,6 @@ input:checked+.slider__light:before {
     font-size: 20px;
 }
 
-/* Стили для переключателя языка */
 .language-switcher {
     top: 20px;
     right: 20px;
@@ -235,7 +234,7 @@ input:checked+.slider__light:before {
 
 .language-switcher select:focus {
     outline: none;
-    border-color: #0060df;  /* Можно изменить цвет на основной цвет темы */
+    border-color: #0060df;
 }
 
 #about__title {
