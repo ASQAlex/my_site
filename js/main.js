@@ -55,9 +55,9 @@ var swiper = new Swiper(".mySwiper", {
 
 
 const translations = {
-  en: 'translations/translations_en.json',
-  ua: 'translations/translations_ua.json',
-  ru: 'translations/translations_ru.json'
+  en: '/translations/translations_en.json',
+  ua: '/translations/translations_ua.json',
+  ru: '/translations/translations_ru.json'
 };
 
 function switchLanguage(lang) {
