@@ -211,6 +211,33 @@ input:checked+.slider__light:before {
     font-size: 20px;
 }
 
+/* Стили для переключателя языка */
+.language-switcher {
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.language-switcher select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.language-switcher select:hover {
+    background-color: #eee;
+}
+
+.language-switcher select:focus {
+    outline: none;
+    border-color: #0060df;  /* Можно изменить цвет на основной цвет темы */
+}
+
 #about__title {
     font-size: 24px;
     margin-bottom: 71px;
@@ -222,7 +249,7 @@ input:checked+.slider__light:before {
 }
 
 .about__img {
-    width: 320px;
+    width: 250px;
     height: 320px;
 }
 
@@ -312,7 +339,7 @@ input:checked+.slider__light:before {
 }
 
 .mail {
-    background-image: url(/imajes/mail.svg);
+    background-image: url(../imajes/mail.svg);
     width: 57px;
     height: 57px;
     background-repeat: no-repeat;
@@ -324,12 +351,12 @@ input:checked+.slider__light:before {
 }
 
 .mail:hover {
-    background-image: url(/imajes/mail-hover.svg);
+    background-image: url(../imajes/mail-hover.svg);
     z-index: 10;
 }
 
 .telegram {
-    background-image: url(/imajes/telegram.svg);
+    background-image: url(../imajes/telegram.svg);
     width: 57px;
     height: 57px;
     background-repeat: no-repeat;
@@ -342,12 +369,12 @@ input:checked+.slider__light:before {
 }
 
 .telegram:hover {
-    background-image: url(/imajes/telegram-hover.svg);
+    background-image: url(../imajes/telegram-hover.svg);
     z-index: 10;
 }
 
 .watsapp {
-    background-image: url(/imajes/watsapp.svg);
+    background-image: url(../imajes/watsapp.svg);
     width: 57px;
     height: 57px;
     background-repeat: no-repeat;
@@ -359,12 +386,12 @@ input:checked+.slider__light:before {
 }
 
 .watsapp:hover {
-    background-image: url(/imajes/watsapp-hover.svg);
+    background-image: url(../imajes/watsapp-hover.svg);
     z-index: 10;
 }
 
 .viber {
-    background-image: url(/imajes/viber.svg);
+    background-image: url(../imajes/viber.svg);
     width: 57px;
     height: 57px;
     background-repeat: no-repeat;
@@ -376,12 +403,12 @@ input:checked+.slider__light:before {
 }
 
 .viber:hover {
-    background-image: url(/imajes/viber-hover.svg);
+    background-image: url(../imajes/viber-hover.svg);
     z-index: 10;
 }
 
 .facebook {
-    background-image: url(/imajes/facebook.svg);
+    background-image: url(../imajes/facebook.svg);
     width: 57px;
     height: 57px;
     background-repeat: no-repeat;
@@ -393,12 +420,12 @@ input:checked+.slider__light:before {
 }
 
 .facebook:hover {
-    background-image: url(/imajes/facebook-hover.svg);
+    background-image: url(../imajes/facebook-hover.svg);
     z-index: 10;
 }
 
 .messenger {
-    background-image: url(/imajes/messenger.svg);
+    background-image: url(../imajes/messenger.svg);
     width: 57px;
     height: 57px;
     background-repeat: no-repeat;
@@ -410,12 +437,12 @@ input:checked+.slider__light:before {
 }
 
 .messenger:hover {
-    background-image: url(/imajes/messenger.svg);
+    background-image: url(../imajes/messenger-hover.svg);
     z-index: 10;
 }
 
 .github {
-    background-image: url(/imajes/github.svg);
+    background-image: url(../imajes/github.svg);
     width: 57px;
     height: 57px;
     background-repeat: no-repeat;
@@ -427,12 +454,12 @@ input:checked+.slider__light:before {
 }
 
 .github:hover {
-    background-image: url(/imajes/github-hover.svg);
+    background-image: url(../imajes/github-hover.svg);
     z-index: 10;
 }
 
 .linkedin {
-    background-image: url(/imajes/linkedin.svg);
+    background-image: url(../imajes/linkedin.svg);
     width: 57px;
     height: 57px;
     background-repeat: no-repeat;
@@ -444,7 +471,7 @@ input:checked+.slider__light:before {
 }
 
 .linkedin:hover {
-    background-image: url(/imajes/linkedin-hover.svg);
+    background-image: url(../imajes/linkedin-hover.svg);
     z-index: 10;
 }
 
@@ -638,5 +665,9 @@ input:checked+.slider__light:before {
     .form__textarea,
     .form__btn{
         width: 305px;
+    }
+
+    .box__light button{
+        padding: 5px 20px;
     }
 }
