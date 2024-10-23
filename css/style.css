@@ -550,35 +550,35 @@ input:checked+.slider__light:before {
     }
 
     .mail {
-        background-image: url(/imajes/mail-hover.svg);
+        background-image: url(../imajes/mail-hover.svg);
     }
 
     .telegram {
-        background-image: url(/imajes/telegram-hover.svg);
+        background-image: url(../imajes/telegram-hover.svg);
     }
 
     .watsapp {
-        background-image: url(/imajes/watsapp-hover.svg);
+        background-image: url(../imajes/watsapp-hover.svg);
     }
 
     .viber {
-        background-image: url(/imajes/viber-hover.svg);
+        background-image: url(../imajes/viber-hover.svg);
     }
 
     .facebook {
-        background-image: url(/imajes/facebook-hover.svg);
+        background-image: url(../imajes/facebook-hover.svg);
     }
 
     .messenger {
-        background-image: url(/imajes/messenger-hover.svg);
+        background-image: url(../imajes/messenger-hover.svg);
     }
 
     .github {
-        background-image: url(/imajes/github-hover.svg);
+        background-image: url(../imajes/github-hover.svg);
     }
 
     .linkedin {
-        background-image: url(/imajes/linkedin-hover.svg);
+        background-image: url(../imajes/linkedin-hover.svg);
     }
 }
 
