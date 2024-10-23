@@ -1,0 +1,13 @@
+{
+    "about_me": "About Me",
+    "skills": "Skills",
+    "my_work": "My Work",
+    "contacts": "Contacts",
+    "about_text_top": "I am Alex, I have been doing Frontend development for over 2 years. I take on projects of various levels of complexity. I am attracted by interesting tasks.",
+    "about_text_center": "Frontend is a key part of my life, I take my work seriously and responsibly. I am equally good at working in a team and independently.",
+    "about_text_down": "In my free time, I am sociable, I love nature and cycling.",
+    "name_placeholder": "Name",
+    "email_placeholder": "E-mail",
+    "message_placeholder": "Message",
+    "send_message": "Send Message"
+}
