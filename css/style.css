@@ -332,6 +332,7 @@ input:checked+.slider__light:before {
 .swiper-slide {
     background-position: center;
     background-size: cover;
+    max-height: 460px;
 }
 
 .swiper-slide img {
