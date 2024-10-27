@@ -325,6 +325,8 @@ input:checked+.slider__light:before {
 
 .swiper {
     width: 85%;
+    filter: drop-shadow(0 0 20px #00ffea);
+    transition: filter 1s ease;
 }
 
 .swiper-slide {
@@ -335,6 +337,10 @@ input:checked+.slider__light:before {
 .swiper-slide img {
     display: block;
     width: 100%;
+}
+
+.swiper-pagination{
+    margin-bottom: -35px;
 }
 
 .rds {
