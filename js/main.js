@@ -48,16 +48,30 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
-  document.getElementById("menu-icon").addEventListener("click", function() {
+  document.getElementById("menu-icon").addEventListener("click", function(event) {
+    event.stopPropagation();
     this.classList.toggle("change");
     document.getElementById("menu-top").classList.toggle("show");
 });
+
+document.addEventListener("click", function(event) {
+    const menu = document.getElementById("menu-top");
+    const menuIcon = document.getElementById("menu-icon");
+    
+    if (menu.classList.contains("show") && !menu.contains(event.target) && !menuIcon.contains(event.target)) {
+        menu.classList.remove("show");
+        menuIcon.classList.remove("change");
+    }
+});
+
 
 
 const translations = {
   en: './translations/translations_en.json',
   ua: './translations/translations_ua.json',
-  ru: './translations/translations_ru.json'
+  ru: './translations/translations_ru.json',
+  pl: './translations/translations_pl.json', 
+  es: './translations/translations_es.json' 
 };
 
 function switchLanguage(lang) {
