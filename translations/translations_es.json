@@ -1,0 +1,13 @@
+{
+    "about_me": "Sobre mí",
+    "skills": "Habilidades",
+    "my_work": "Mis trabajos",
+    "contacts": "Contactos",
+    "about_text_top": "Soy Alex, llevo más de 2 años en desarrollo Frontend. Realizo proyectos de distintos niveles de complejidad. Me atraen los desafíos interesantes.",
+    "about_text_center": "El frontend es una parte clave de mi vida, trabajo de manera seria y responsable. Trabajo bien en equipo y de forma independiente.",
+    "about_text_down": "En mi tiempo libre, disfruto de la naturaleza y el ciclismo.",
+    "name_placeholder": "Nombre",
+    "email_placeholder": "Correo electrónico",
+    "message_placeholder": "Mensaje",
+    "send_message": "Enviar mensaje"
+}
